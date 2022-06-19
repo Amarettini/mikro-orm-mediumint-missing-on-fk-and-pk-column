@@ -4,7 +4,7 @@ import { Book } from "./Book";
 @Entity()
 export class Author {
 
-  @PrimaryKey()
+  @PrimaryKey({ columnType: "MEDIUMINT" })
   id!: number;
 
   @Property()
