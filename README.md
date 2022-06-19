@@ -1,3 +1,8 @@
+## Problem
+
+Mikro-orm does not create FK columns of type `MEDIUMINT`. Setting `columntType="MEDIUMINT` on property has no
+affect on the generated schema.
+
 ## Commands History
 ```bash
 # Creates new schema and dumps to file
